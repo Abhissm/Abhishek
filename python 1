@@ -1,0 +1,139 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMzjErWA8Xb15kuVEfBOYrz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Abhissm/Abhishek/blob/main/python%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nPsxl4GwIHh2",
+        "outputId": "9806a754-4f68-4492-94fe-533dc4574c18"
+      },
+      "source": [
+        "natural=1,2,3,4\n",
+        "n=4\n",
+        "i=1\n",
+        "sum=0\n",
+        "while i<=n:\n",
+        "    sum=sum+1\n",
+        "    i=i+1\n",
+        "    \n",
+        "print(\"sum=\",sum)\n"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "sum= 4\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_cM5aIRaKyx0",
+        "outputId": "19e2453d-0770-4a62-c0ff-5443963561ce"
+      },
+      "source": [
+        "def printinfo( name, age ):\n",
+        "   \"This prints a passed info into this function\"\n",
+        "   print(\"Name: \", name)\n",
+        "   print(\"Age \", age)\n",
+        "   return;\n",
+        "\n",
+        "# Now you can call printinfo function\n",
+        "printinfo( age=50, name=\"miki\" )"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Name:  miki\n",
+            "Age  50\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PqTnubd9L71K"
+      },
+      "source": [
+        "def sum():\n",
+        "  c=2+3\n",
+        "  return c"
+      ],
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "GNwA_ocEMbgW"
+      },
+      "source": [
+        "total=sum()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "RYjhd8ieMft6"
+      },
+      "source": [
+        "print(total)\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "7BgygEDxMxoz"
+      },
+      "source": [
+        "x,y,z=sum()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
